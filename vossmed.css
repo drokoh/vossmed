@@ -1,0 +1,461 @@
+
+ *{
+margin: 0;
+padding: 0;
+font-family: 'Montserrat', sans-serif;
+ }
+ .header{
+
+min-height: 100vh;
+width: 100%;
+background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/home.jpg) ;
+ 
+background-position: center;
+background-size: cover;
+position: relative;}
+ 
+ 
+
+ 
+ nav{
+display: flex;
+padding: 2% 6%;
+justify-content: space-between;
+align-items: center;
+ }
+ nav img{
+     width: 85px;
+     padding: 1% 6%;
+     margin-top: 10px;
+ }
+ .nav-links{
+flex: 1;
+text-align: right;
+}
+ .nav-links ul li{
+list-style: none;
+display: inline-block;
+padding: 0px 12px;
+position: relative;
+
+ }
+
+ .nav-links ul li a{
+     color: white;
+     text-decoration: none;
+     font-size: 20px;
+     cursor: pointer;
+     
+ }
+.nav-links ul li::after{
+    content: '';
+    width:  0%;
+    height: 3.2px;
+    background: royalblue;
+    display: block;
+    margin: auto;
+    transition:0.45s;  
+}
+  
+  .nav-links ul li:hover::after{
+    width: 100%;
+  }
+ 
+ .text-box{
+      
+    width: 1000px;
+    color: #FF0000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+ }
+ .text-box h1{
+     font-size: 85px;
+
+}
+      .text-box h2{
+     font-size: 45px;
+      color:#fff;
+ }
+ .text-box p{
+     margin: 10px 0 40px;
+     margin-top: 25px;
+     font-size: 25px;
+     color: blue;
+     font-weight: 450;
+ }
+
+ .abtvossmed {
+  background-color: #fff; 
+  text-align: center;
+  padding: 50px 0;  
+  min-height: 45vh;  
+}
+
+.abtvossmed h2 {
+  color: #FF0000 ;
+  font-size: 3.5em; /* increase the font size of the heading */
+  margin-bottom: 20px; /* add space between the heading and the paragraph */
+}
+
+.abtvossmed p {
+  text-align: center;
+  max-width: 1200px; /* set the maximum width of the paragraph */
+  margin: 0 auto; /* center the paragraph horizontally */
+ line-height: 1.5;
+ font-size: 1.5em;
+}
+
+
+.hchoices-roleinnovative {
+  background-color: royalblue; /* very light grey */
+  text-align: center;
+  padding: 50px 0; /* add some padding for better spacing */
+  min-height: 55vh; /* set the minimum height of the section to 75% of viewport height */
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px
+}
+
+.hchoices-roleinnovative h2 {
+  color: darkred;
+  font-size: 2.5em; /* increase the font size of the heading */
+  margin-bottom: 20px; /* add space between the heading and the paragraph */
+}
+
+.hchoices-roleinnovative p {
+  text-align: center;
+  max-width: 800px; /* set the maximum width of the paragraph */
+  margin: 0 auto; /* center the paragraph horizontally */
+ line-height: 1.5;
+ font-size: 18px;
+}
+ 
+
+ 
+ .line{
+     margin-top: 8%;
+     margin:8px;
+     display: flex;
+     justify-content: space-between;
+     padding: 20px;
+     color: white;
+  }
+
+
+
+
+.structure{
+
+
+background-color: #fff;  
+  text-align: center;
+  padding: 50px 0;  
+  min-height: 45vh;  
+
+}
+.structure h2{
+    color: #FF0000;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.structure p{
+text-align: center;
+  max-width: 975px; /* set the maximum width of the paragraph */
+  margin: 0 auto; /* center the paragraph horizontally */
+ line-height: 1.5;
+ font-size: 20px;
+
+
+
+}
+
+
+
+.hpolicy{
+
+
+background-color: royalblue;  
+  text-align: center;
+  padding: 50px 0;  
+  min-height: 45vh;  
+
+}
+.hpolicy h2{
+    color:darkred;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.hpolicy p{
+text-align: center;
+  max-width: 975px; /* set the maximum width of the paragraph */
+  margin: 0 auto; /* center the paragraph horizontally */
+ line-height: 1.5;
+ font-size: 20px;
+ color: white;
+
+
+
+}
+
+
+
+
+
+
+
+     .exp-professionalism {
+  background-color: #fff; /* very light grey */
+  text-align: center;
+  padding: 50px 0; /* add some padding for better spacing */
+  min-height: 35vh; /* set the minimum height of the section to 75% of viewport height */
+  width: 100%;
+  margin:0 auto;
+ ;
+  
+}
+
+.exp-professionalism h2 {
+  color: green ;
+  font-size: 2.5em; /* increase the font size of the heading */
+  margin-bottom: 20px; /* add space between the heading and the paragraph */
+}
+
+.exp-professionalism p {
+  text-align: center;
+  max-width: 800px; /* set the maximum width of the paragraph */
+  margin: 0 auto; /* center the paragraph horizontally */
+ line-height: 1.5;
+ font-size: 18px;
+}
+ 
+
+ 
+ .line-2{
+     margin-top: 8%;
+     margin:8px;
+     display: flex;
+     justify-content: space-between;
+     padding: 5px;
+  }
+
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+  background-color: darkblue;
+   /* use position absolute */
+  bottom: 0; /* position the footer at the bottom */
+  z-index: 999;
+  left: 0;
+}
+
+.footer h4 {
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+.footer p {
+  color: white;
+  text-align: center;
+}
+
+.footer p a {
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+  /* Contact Us */
+
+  .contact-header{
+    min-height: 45vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/aboutus.jpg);
+background-size: cover;
+position: relative;
+ 
+}
+  }
+   .text-box{
+      
+    width: 1000px;
+    color: limegreen;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+ }
+ .text-box h1{
+     font-size: 85px;}
+
+.contact-info{
+background-color: #fff;
+text-align: center;
+padding: 50px 0;
+min-height: 75vh;
+
+
+}
+.contact-info h4{
+    color: #FF0000;
+  font-size: 1.5em;  
+  margin-bottom: 20px;
+}
+
+.contact-info p{
+    text-align: center;
+  max-width: 1200px;   
+  margin: 0 auto;  
+ line-height: 1.5;
+ font-size: 1.5em;
+}
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+/* Our Achievements */
+
+
+.achievements-header{
+
+min-height: 55vh;
+width: 100%;
+background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/home1.jpg) ;
+ 
+background-position: center;
+background-size: cover;
+position: relative;
+ 
+
+}
+
+.SYA-conferences{
+ background-color: royalblue; 
+  text-align: center;
+  padding: 50px 0;  
+  min-height: 75vh; 
+
+
+
+}
+ 
+
+.SYA-conferences h1 {
+  color: darkred;
+  font-size: 3.5em; /* increase the font size of the heading */
+  margin-bottom: 20px; /* add space between the heading and the paragraph */
+}
+
+.SYA-conferences p {
+  text-align: center;
+  max-width: 1200px; /* set the maximum width of the paragraph */
+  margin: 0 auto; /* center the paragraph horizontally */
+ line-height: 1.5;
+ font-size: 1.5em;
+ color: #fff;
+}
+
+.SMB-conference{
+ background-color: #fff; 
+  text-align: center;
+  padding: 50px 0;  
+  min-height: 120vh; 
+
+
+
+}
+ 
+
+.SMB-conference h1 {
+  color: #FF0000;
+  font-size: 2.2em; /* increase the font size of the heading */
+  margin-bottom: 20px; /* add space between the heading and the paragraph */
+}
+
+.SMB-conference p {
+  text-align: center;
+  max-width: 1200px; /* set the maximum width of the paragraph */
+  margin: 0 auto; /* center the paragraph horizontally */
+ line-height: 1.5;
+ font-size: 1.5em;
+}
+
+
+.conference-image {
+    margin-top: 30px;
+
+  width: 100%;
+  height: 500px; /* Change the height to suit your needs */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.conference-image img{
+size: 1000px;
+
+
+}
+
+
+.outreaches{
+ background-color: royalblue; 
+  text-align: center;
+  padding: 50px 0;  
+  min-height: 75vh; 
+}
+.outreaches h1 {
+  color: darkred;
+  font-size: 3.5em; /* increase the font size of the heading */
+  margin-bottom: 20px; /* add space between the heading and the paragraph */
+}
+
+.outreaches p {
+  text-align: center;
+  max-width: 1200px; /* set the maximum width of the paragraph */
+  margin: 0 auto; /* center the paragraph horizontally */
+ line-height: 1.5;
+ font-size: 1.5em;
+ color: #fff;
+}
+
+ 
+.outreaches img {
+    margin-top: 30px;
+
+  width:100%;
+  height: 350px; /* Change the height to suit your needs */
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.outreaches img{
+margin: 20px;
+width: 850px;
+z-index: -2;
+
+}
